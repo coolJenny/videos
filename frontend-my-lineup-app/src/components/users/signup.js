@@ -64,7 +64,7 @@ class Signup extends React.Component {
                 <h4>Already Have an Account?
                   <Link to="/login" > Login Here</Link>
                 </h4>
-                <div className="ui fluid large teal basic submit button" onClick={this.handleSubmit}>Signup</div>
+                <div className="ui large teal basic submit button" onClick={this.handleSubmit}>Signup</div>
               </div>
 
             </form>

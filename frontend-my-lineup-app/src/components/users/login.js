@@ -60,7 +60,7 @@ class Login extends React.Component {
                 <h4>No Account Yet?
                   <Link to="/signup"> Sign Up Here</Link>
                 </h4>
-                <div className="ui fluid large teal submit button" onClick={this.handleSubmit}>Login</div>
+                <div className="ui large teal submit button" onClick={this.handleSubmit}>Login</div>
               </div>
 
             </form>

@@ -12,9 +12,6 @@
 
 ActiveRecord::Schema.define(version: 20171014142518) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "episodes", force: :cascade do |t|
     t.string "title"
     t.string "show_title"
@@ -51,7 +48,7 @@ ActiveRecord::Schema.define(version: 20171014142518) do
     t.integer "user_id"
     t.integer "episode_id"
     t.string "rating"
-    t.boolean "watched"
+    t.boolean "watched", default: false
   end
 
   create_table "user_shows", force: :cascade do |t|
